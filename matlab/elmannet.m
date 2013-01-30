@@ -7,6 +7,7 @@ function [ret] = main (strnet, strvar)
 		temp(i) = 1;
 		bit{i} = temp; 
     end
+
     nets = load(strnet);
     vars = load(strvar);
     
